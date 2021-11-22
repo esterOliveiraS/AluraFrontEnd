@@ -101,6 +101,12 @@ nav a:hover {
 
 footer {
     text-align: center; 
-    background: url("/assets/bg.jpg");
+    background: url("/assets/bg.jpg");    /* Definindo uma imagem como fundo de um elemento por meio do parametro url */
     padding: 40px 0; 
+}
+
+.copyright {
+    color: #FFFFFF; 
+    font-size: 13px; 
+    margin: 20px; 
 }
