@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>                                           <!-- Informação que desejamos passar para o navegador -->
+        <meta charset = "UTF-8">                     <!-- Meta que diz ao browser que site possui irá alguns caracteres especiais e tá tudo bem -->
+        <title>Produtos - Barbearia Alura</title>
+        <link rel="stylesheet" href="reset.css">     <!-- Link para o arquivo que reseta todas as definições de layout definidas pelos browser  -->
+        <link rel="stylesheet" href="produtos.css">  <!-- Linka o arquivo html com arquivo css. o href => indica qual é o caminho -->
+    </head>
+    <body>
+        <!-- Conteúdo do cabeçalho -->
+        <header>
+            <div class="caixa">
+                <!-- Logo-->
+                <h1><img src="assets/logo.png"></h1>
+                <!-- Menu de Navegação  -->
+                <nav>
+                    <ul >         
+                        <!-- Lista n ordenada -->
+                        <li><a href="main/BarbeariaAluraVs2/index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="http://www.google.com">Contato</a></li>
+                    </ul>
+                </nav>
+                <!-- FIM do Menu de Navegação-->
+            </div>
+        </header>                           
+        <main>
+            <ul class= "produtos"> 
+                <li>
+                    <h2>Cabelo</h2>
+                    <img src= "assets/cabelo.jpg">
+                    <p class= "produto-descricao">Na tesoura ou na máquina, como o cliente preferir</p>
+                    <p id= "produto-preco">R$ 25,00</p>
+                </li> 
+                <li>
+                    <h2>Barba</h2>
+                    <img src= "assets/barba.jpg">
+                    <p class= "produto-descricao">Corte e desenho profissional de barba</p>
+                    <p id= "produto-preco">R$ 18,00</p>
+                </li>
+                <li>
+                    <h2>Cabelo + barba</h2>
+                    <img src= "assets/cabelo+barba.jpg">
+                    <p class= "produto-descricao">Pacote completo de cabelo e barba</p>
+                    <p id= "produto-preco">R$ 35,00</p>
+                </li>
+            </ul>
+        </main> 
+        <footer></footer>
+    </body>
+</html>

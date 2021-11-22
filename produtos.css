@@ -1,0 +1,79 @@
+/* HEADER */
+
+header {
+    background-color: #BBBBBB ;
+    padding: 20px 0;
+}
+
+
+/* MENU DE NAVEGAÇÃO */
+
+/* Elemento que tá envelopando todo conteúdo da div caixa */
+.caixa {
+    position: relative;    
+    width: 940px;               /* Defindo uma largura padrão para esse caixa */
+    margin: 0 auto; 
+
+}
+
+nav {
+    position: absolute;          /* Muda a posição do elemento e do ponto inicial dele. Nos dando poder de movimentar ele para todo canto! */
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;             /* Dá aos elementos selecionados a capacidade de ocupar o espaço completo que eles mesmo possue*/
+    margin-left:  15px;
+}   
+
+li {
+    display: inline;
+}
+
+nav a {
+    text-transform: uppercase;   /* Transforma o corpotamento visual para maiúsculo*/
+    color: #000000;
+    font-weight: bold;           /* Define o peso da da fonte   */
+    font-size: 22px; 
+    text-decoration: none;       /*  Retira o sublinhado do elemento ancora */
+}
+
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.produtos li {
+    display: inline-block;       /* A propriedade inline-block permite que os elementos ocupem o tamanho do conteúdo deles e block para ocupar os espaço total */
+    text-align: center;
+    width: 30%;
+    vertical-align: top;        /*  Muda a linha que o display inline se orienta (que é padronizada pela de baixo), para cima*/
+    margin: 0 1.5%;             /*  Espaçamento externo */
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+}
+
+
+.produtos h2 {
+    font-size: 30px; 
+    font-weight: bold;
+
+}
+
+.produto-descricao {
+    font-size: 18px;
+
+}
+
+.produtos #produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
