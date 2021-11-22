@@ -37,8 +37,15 @@ nav a {
     font-weight: bold;           /* Define o peso da da fonte   */
     font-size: 22px; 
     text-decoration: none;       /*  Retira o sublinhado do elemento ancora */
-}
+}  
 
+/* Muda o compatamento da página quando o usuário está mexendo na página */
+nav a:hover {
+
+    color: #C78C19;
+    text-decoration: underline;
+
+}   
 
 .produtos {
     width: 940px;
